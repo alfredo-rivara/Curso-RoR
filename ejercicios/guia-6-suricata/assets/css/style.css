@@ -1,0 +1,28 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+background-color: #e83e8c;
+}
+
+.navbar-brand img {
+    height: 50px;
+}
+
+.fondo {
+    background-color: #17A288;
+    padding: 50px;
+}
+
+footer {
+    background-color: #e83e8c;
+    padding: 50px;
+    text-align: center;
+}
+
+footer img {
+    height: 150px;
+}
+
+

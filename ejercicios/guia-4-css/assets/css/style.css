@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#barra {
+    background: purple;
+    color: white;
+    display: inline-flex;
+    padding: 20px;
+    border: 10px;
+
+}

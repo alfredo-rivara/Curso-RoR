@@ -1,0 +1,83 @@
+* {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+#Proxima-charla {
+    background: #a4452c;
+    padding: 100px;
+    color: white;
+}
+
+#Proxima-charla .wrapper {
+    width: 800px;
+    margin: auto;
+}
+
+.wrapper img {
+    width: 25%;
+}
+
+.wrapper .texto {
+    width: 70%;
+    margin-left: 4%;
+}
+
+.wrapper img,
+.texto {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+footer {
+    text-align: center;
+    font-family: "Noto Sans";
+    background-color: navy;
+    padding: 20px;
+    color: white;
+    align-content: center;
+}
+
+footer img {
+    position: absolute;
+    align-content: center;
+    padding: 1 rem;
+    height: 100%;
+    display: flex;
+    gap: 10px;
+    object-fit: cover;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+;
+}
+
+footer img:hover {
+    flex: 1;
+}
+
+.galeria {
+    position: absolute;
+    align-content: center;
+    padding: 50px;
+    width: 60vw;
+    height: 60vmin;
+    display: flex;
+    gap: 10px;
+}
+
+.galeria img {
+    height: 100%;
+    flex: 1;
+    object-fit: cover;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.galeria img:hover {
+    flex: 5;
+}

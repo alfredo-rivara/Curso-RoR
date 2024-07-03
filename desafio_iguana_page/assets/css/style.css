@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'raleway', sans-serif;
+}
+
+header {
+    color: #ffffff;
+    background-color: #000000;
+    text-align: center;
+    font-size: 30px;
+    font-weight: normal;
+    width: 1280px;
+    height: 73px;
+}
+
+.iguana-principal{
+    width: 1280px;
+    height: 727px;
+}
+
+
+/* Iguana info */
+
+.iguana-info {
+    background-color: #000000;
+    display: inline-flex;
+    width: 1280px;
+    height: 348px;
+}
+
+#iguana-info-txt {
+    text-align: left;
+    color: #ffffff;
+    font-size: 8px;
+    font-weight: lighter;
+    padding: 6 em;
+}
+
+#iguana1 {
+    margin-right: 6rem;
+}
+
+/* Seccion Caracteristicas */
+
+.caracteristicas {
+    width: 1280px;
+    height: 348px;
+    background-color: #1E1A13;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.caracteristicas, h2 {
+    color: #ffffff;
+    text-align: center;
+    font-weight: normal;
+    font-size: 40px;
+    border: 0px;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+
+}
+
+.caracteristicas, p {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: medium;
+}
+
+.iconos-del-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2rem;
+    
+}
+
+.icono-ojo{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#txt-ojo{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.icono-pacificas{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#txt-pacificas{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.icono-pincel{
+    grid-column: 3;
+    grid-row: 1;
+}
+
+#txt-pincel{
+    grid-column: 3;
+    grid-row: 2;
+}
+
+#txt-cambian-color{
+    grid-column: 3;
+    grid-row: 3;
+}
+
+
+/* Seccion Tres Iguanas */
+
+.tres-iguanas {
+    width: 1280px;
+    height: 348px;
+    background-color: #000000;
+    opacity: 96%;
+    display: flex;
+    
+}
+
+.tres-iguanas img {
+    width: 316px;
+    height: 202px;
+}
+
+.galeria{
+    padding: 73px 150px 73px 150px;
+}
+
+
+
+footer {
+    width: 1280px;
+    height: 102px;    
+    background-color: #1E1A13;
+          
+}
+
+footer, p {
+    color: #ffffff;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 20px;
+    display: inline-flexbox;   
+    opacity: 94%;
+    padding-top: 1.5rem;
+}
+
